@@ -10,6 +10,7 @@ public class PlayerCondition : MonoBehaviour, IDamagable
     Condition stamina { get { return uiCondition.stamina; } }
     
     public event Action onTakeDamage;
+    
     Coroutine coroutine;
 
     private void Update()

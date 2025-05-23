@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Equipment : MonoBehaviour
 {
-    public Equip curEquip;
-    public Transform equipParent;
+    [SerializeField] private Equip curEquip;
+    [SerializeField] private Transform equipParent;
     
     private PlayerController controller;
     private PlayerCondition condition;

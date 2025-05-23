@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public Transform startPosition;
-    public Transform endPosition;
+    [SerializeField] private Transform startPosition;
+    [SerializeField] private Transform endPosition;
     
-    public float speed = 3f;
-    public float waitTime = 3f;
-    public float stopDistance = 10f;
+    [SerializeField] private float speed = 3f;
+    [SerializeField] private float waitTime = 3f;
+    [SerializeField] private float stopDistance = 10f;
     
     private Transform player;
     private Vector3 targetPosition;

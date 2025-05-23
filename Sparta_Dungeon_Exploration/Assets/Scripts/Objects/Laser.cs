@@ -5,9 +5,9 @@ using UnityEngine.UIElements;
 
 public class Laser : MonoBehaviour
 {
-    public float length = 5;
-    public int damage;
-    public float damageRate;
+    [SerializeField] private float length = 5;
+    [SerializeField] private int damage;
+    [SerializeField] private float damageRate;
     
     private LineRenderer line;
     

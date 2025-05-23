@@ -8,8 +8,5 @@ public class EquipTool : Equip
 
     [Header("Resource Gathering")]
     public bool doesGatherResources;
-
-    [Header("Combat")]
-    public bool doesDealDamage;
-    public int damage;
+    
 }

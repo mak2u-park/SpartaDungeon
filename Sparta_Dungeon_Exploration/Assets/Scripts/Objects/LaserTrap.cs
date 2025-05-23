@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class LaserTrap : MonoBehaviour
 {
-    public PlayerCondition _condition;
-    public float laserdistance;
-    public LayerMask playerLayer;
+    [SerializeField] private PlayerCondition _condition;
+    [SerializeField] private float laserdistance;
+    [SerializeField] private LayerMask playerLayer;
 
     
     private void Start()
